@@ -1,0 +1,17 @@
+{
+  "deleteFilter": {
+    "title": "Delete filter",
+    "description": "Are you sure you want to delete filter?",
+    "confirmBtn": "Delete"
+  },
+  "activeFilter": {
+    "title": "Activation filter",
+    "description": "Are you sure you want to active filter?",
+    "confirmBtn": "Activate"
+  },
+  "inactiveFilter": {
+    "title": "Inactive filter",
+    "description": "Are you sure you want to inactive filter?",
+    "confirmBtn": "Deactivate"
+  }
+}

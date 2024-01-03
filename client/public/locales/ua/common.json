@@ -1,0 +1,9 @@
+{
+  "price": "ціна",
+  "confirmModal": {
+    "deleteFilter": {
+      "title": "Видалення фільтра",
+      "description": "Ви впевнені що хочите видаои фільтер?"
+    }
+  }
+}

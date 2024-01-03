@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "checkJs": false,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "listFiles": false,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmitHelpers": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "target": "es6",
+    "lib": ["dom", "esnext"],
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "declaration": false
+  },
+  "exclude": ["client/node_modules", "build"],
+  "include": [
+    "src",
+    "public/firebase-messaging-sw.jsw.js",
+    "src/util",
+    "**/*.ts",
+    "src/**/*",
+    "src/modules/shared/layouts/BasicLayout/.jsx"
+  ],
+  "lib": ["dom.iterable"]
+}
